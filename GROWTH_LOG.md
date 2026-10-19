@@ -22,3 +22,13 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 - Task: Adsterra Integrator populated the 14 V4 page keys in `src/data/ads.ts` with real codes for Banner 728x90/468x60/320x50/300x250, Native Banner and Smartlink units; Popunder/Social Bar remain excluded because the page manifest does not select them.
 - Placements: 6 platform placements (31811602 NativeBanner, 31811603 Smartlink, 31811604 728x90, 31811605 468x60, 31811606 320x50, 31811607 300x250) shared by 14 page keys via `ad-placement-manifest.json` slots.
 - Verification: `npm run verify` re-run after rewrite; typecheck/lint/build green. No CF build or live checks performed (out of scope for this role).
+
+### 2026-10-20 — how-long-to-beat panel + FAQ row
+
+- Task: `2026-10-20-finalfantasyresonance-pro-how-long-to-beat` added a how-long-to-beat data-table on `/guides/demo-walkthrough` (demo 3-9h, main story 20-40h, completionist 60-80h) and a new FAQ row on `/faq` with the platform save-transfer caveat.
+- Files: `src/data/pages/guide-pages.ts`, `src/data/pages/site-pages.ts`, `src/data/faq.ts`, `src/data/pages/home.ts`, `CONTENT_INDEX.md`.
+
+### 2026-10-20 — per-character Vision pairing matrix
+
+- Task: `2026-10-20-finalfantasyresonance-pro-vision-per-character-recommendations` added a per-character pairing matrix, a four-slot elemental coverage overlay, and a Mastery Rank / Magicite Awakening progression module to `/guides/visions`, plus a `Recommended Vision` column on the `/guides/characters` roster table.
+- Files: `src/data/pages/guide-pages.ts`, `src/data/pages/home.ts`, `CONTENT_INDEX.md`.

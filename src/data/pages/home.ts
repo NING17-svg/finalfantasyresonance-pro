@@ -53,7 +53,7 @@ export const homePage: PageContent = {
           title: "Visions and Espers",
           description: "Crystal questions, Vision Crystals, and Fina's 9-Esper summon list.",
           items: [
-            { label: "Visions — locations and upgrade", href: "/guides/visions", description: "26 Vision roster, Sanctums of Light, tier list, XP costs." },
+            { label: "Visions — locations and upgrade", href: "/guides/visions", description: "26 Vision roster, per-character pairing matrix, Sanctums of Light, XP costs." },
             { label: "Crystal questions and answers", href: "/guides/crystal-questions", description: "What the Sanctum of Light crystal asks." },
             { label: "Espers list and how to summon", href: "/guides/espers", description: "Fina's summon mechanic and the 9-Esper trophy path." },
             { label: "Esper's Dwelling walkthrough", href: "/guides/esper-dwelling-walkthrough", description: "How to run a trial and clear the Antlion desert Esper." },
@@ -74,7 +74,7 @@ export const homePage: PageContent = {
           description: "The full game and the Chapter 1 demo.",
           items: [
             { label: "Full walkthrough and choices", href: "/guides/walkthrough", description: "Chapter flow, active party, and choices that gate next content." },
-            { label: "Demo walkthrough", href: "/guides/demo-walkthrough", description: "3-5 hour demo checklist, in-demo Visions, and the secret boss trigger." },
+            { label: "Demo walkthrough", href: "/guides/demo-walkthrough", description: "3-5 hour demo checklist, full how-long-to-beat table, in-demo Visions, and the secret boss trigger." },
           ],
         },
       ],

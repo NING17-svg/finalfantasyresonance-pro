@@ -92,6 +92,16 @@ export const faqItems: FAQItem[] = [
     sourceStatus: "official",
   },
   {
+    id: "how-long-to-beat",
+    question: "How long is FINAL FANTASY RESONANCE to beat?",
+    answer:
+      "Plan around 20 to 40 hours for the main story (Gamerfuzion previews cite 20–30h; hexeba hands-on cites 30–40h). Completionists should expect 60 to 80 hours, covering Esper trials, Vision Magicite Awakenings, every Colosseum tier, and the hidden bosses. The demo itself runs 3 to 5 hours per Square Enix, around 6 hours in TGS staff play, and 3 to 9 hours across community runs. Demo save transfers to the full game on launch day for one platform only — restarting on a different platform resets progress.",
+    pageIds: ["demo-walkthrough", "walkthrough", "faq"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
     id: "trophy-count",
     question: "How many trophies are there in FINAL FANTASY RESONANCE?",
     answer:

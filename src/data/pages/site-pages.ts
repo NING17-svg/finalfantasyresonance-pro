@@ -52,6 +52,7 @@ export const sitePages: PageContent[] = [
       "vision-count",
       "esper-count",
       "demo-length",
+      "how-long-to-beat",
       "trophy-count",
       "guide-depth",
     ],
