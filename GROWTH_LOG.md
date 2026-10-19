@@ -16,3 +16,9 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 - Deployment contract preserved: `next.config.ts` uses `output: "export"`, `wrangler.jsonc` serves `./out` with no `main` Worker script, Static Assets `404-page` and `drop-trailing-slash` keep the slashless route contract.
 - Verification: central `validate_guide_v4_stage.py page-builder` returns `pass` with 13 pages and 1 display image; `npm run verify` completes typecheck/lint/build successfully.
 - Follow-up: deploy to the assigned shared Worker pool, attach GA4 / GSC / Bing, then hand off to `adsterra-integrator` for real codes.
+
+### 2026-10-19 — Adsterra codes wired into ads.ts
+
+- Task: Adsterra Integrator populated the 14 V4 page keys in `src/data/ads.ts` with real codes for Banner 728x90/468x60/320x50/300x250, Native Banner and Smartlink units; Popunder/Social Bar remain excluded because the page manifest does not select them.
+- Placements: 6 platform placements (31811602 NativeBanner, 31811603 Smartlink, 31811604 728x90, 31811605 468x60, 31811606 320x50, 31811607 300x250) shared by 14 page keys via `ad-placement-manifest.json` slots.
+- Verification: `npm run verify` re-run after rewrite; typecheck/lint/build green. No CF build or live checks performed (out of scope for this role).
