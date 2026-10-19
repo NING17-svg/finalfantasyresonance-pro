@@ -1,0 +1,182 @@
+[
+  {
+    "id": "home",
+    "translationKey": "home",
+    "locale": "en-US",
+    "routeKind": "home",
+    "url": "/",
+    "alternates": {
+      "en-US": "/"
+    }
+  },
+  {
+    "id": "about",
+    "translationKey": "about",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/about",
+    "alternates": {
+      "en-US": "/about"
+    }
+  },
+  {
+    "id": "contact",
+    "translationKey": "contact",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/contact",
+    "alternates": {
+      "en-US": "/contact"
+    }
+  },
+  {
+    "id": "faq",
+    "translationKey": "faq",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/faq",
+    "alternates": {
+      "en-US": "/faq"
+    }
+  },
+  {
+    "id": "bosses",
+    "translationKey": "bosses",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/bosses",
+    "alternates": {
+      "en-US": "/guides/bosses"
+    }
+  },
+  {
+    "id": "characters",
+    "translationKey": "characters",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/characters",
+    "alternates": {
+      "en-US": "/guides/characters"
+    }
+  },
+  {
+    "id": "colosseum-endgame",
+    "translationKey": "colosseum-endgame",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/colosseum-endgame",
+    "alternates": {
+      "en-US": "/guides/colosseum-endgame"
+    }
+  },
+  {
+    "id": "combat-basics",
+    "translationKey": "combat-basics",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/combat-basics",
+    "alternates": {
+      "en-US": "/guides/combat-basics"
+    }
+  },
+  {
+    "id": "crystal-questions",
+    "translationKey": "crystal-questions",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/crystal-questions",
+    "alternates": {
+      "en-US": "/guides/crystal-questions"
+    }
+  },
+  {
+    "id": "demo-secret-boss",
+    "translationKey": "demo-secret-boss",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/demo-secret-boss",
+    "alternates": {
+      "en-US": "/guides/demo-secret-boss"
+    }
+  },
+  {
+    "id": "demo-walkthrough",
+    "translationKey": "demo-walkthrough",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/demo-walkthrough",
+    "alternates": {
+      "en-US": "/guides/demo-walkthrough"
+    }
+  },
+  {
+    "id": "esper-dwelling-walkthrough",
+    "translationKey": "esper-dwelling-walkthrough",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/esper-dwelling-walkthrough",
+    "alternates": {
+      "en-US": "/guides/esper-dwelling-walkthrough"
+    }
+  },
+  {
+    "id": "espers",
+    "translationKey": "espers",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/espers",
+    "alternates": {
+      "en-US": "/guides/espers"
+    }
+  },
+  {
+    "id": "gilgamesh-fight",
+    "translationKey": "gilgamesh-fight",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/gilgamesh-fight",
+    "alternates": {
+      "en-US": "/guides/gilgamesh-fight"
+    }
+  },
+  {
+    "id": "visions",
+    "translationKey": "visions",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/visions",
+    "alternates": {
+      "en-US": "/guides/visions"
+    }
+  },
+  {
+    "id": "walkthrough",
+    "translationKey": "walkthrough",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/walkthrough",
+    "alternates": {
+      "en-US": "/guides/walkthrough"
+    }
+  },
+  {
+    "id": "privacy-policy",
+    "translationKey": "privacy-policy",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/privacy-policy",
+    "alternates": {
+      "en-US": "/privacy-policy"
+    }
+  },
+  {
+    "id": "terms",
+    "translationKey": "terms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/terms",
+    "alternates": {
+      "en-US": "/terms"
+    }
+  }
+]
