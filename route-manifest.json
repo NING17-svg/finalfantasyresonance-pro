@@ -110,6 +110,16 @@
     }
   },
   {
+    "id": "editions-and-bonuses",
+    "translationKey": "editions-and-bonuses",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/editions-and-bonuses",
+    "alternates": {
+      "en-US": "/guides/editions-and-bonuses"
+    }
+  },
+  {
     "id": "esper-dwelling-walkthrough",
     "translationKey": "esper-dwelling-walkthrough",
     "locale": "en-US",
@@ -137,6 +147,26 @@
     "url": "/guides/gilgamesh-fight",
     "alternates": {
       "en-US": "/guides/gilgamesh-fight"
+    }
+  },
+  {
+    "id": "pc-and-steam-deck",
+    "translationKey": "pc-and-steam-deck",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/pc-and-steam-deck",
+    "alternates": {
+      "en-US": "/guides/pc-and-steam-deck"
+    }
+  },
+  {
+    "id": "tablet-shards",
+    "translationKey": "tablet-shards",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides/tablet-shards",
+    "alternates": {
+      "en-US": "/guides/tablet-shards"
     }
   },
   {

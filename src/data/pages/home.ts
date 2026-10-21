@@ -30,6 +30,8 @@ export const homePage: PageContent = {
   keyFacts: [
     { label: "Release timing", value: "October 22, 2026 (console) / October 23, 2026 (Steam)" },
     { label: "Platforms", value: "Switch, Switch 2, PS5, Xbox Series X|S, Steam" },
+    { label: "Standard edition", value: "$49.99 / £49.99 / €49.99 / ¥7,678 — bonus deadline November 5-6" },
+    { label: "PC / Steam Deck", value: "Steam Deck Verified — 720p/High default, Shadows to Medium" },
     { label: "Active party", value: "4 of 8 named characters" },
     { label: "Visions", value: "26 (16 Legacy Heroes + 10 FFBE / story)" },
     { label: "Espers", value: "9 total — 2 directly confirmed" },
@@ -63,10 +65,10 @@ export const homePage: PageContent = {
           title: "Bosses and endgame",
           description: "Story chapter fights, optional hunts, and the post-story trophy order.",
           items: [
-            { label: "Bosses overview", href: "/guides/bosses", description: "Story chapter bosses, optional hunts, and the demo secret boss." },
+            { label: "Bosses overview", href: "/guides/bosses", description: "Story bosses, optional hunts with level, HP and elemental counters, danger levels, and the demo secret boss." },
             { label: "Gilgamesh fight plan", href: "/guides/gilgamesh-fight", description: "Two-phase walkthrough with Vision setup and what not to do." },
             { label: "Demo secret boss Shemhazai", href: "/guides/demo-secret-boss", description: "Trigger setup, lineup, and the Sweeping Stagger plan." },
-            { label: "Colosseum and endgame", href: "/guides/colosseum-endgame", description: "Bracket tiers, post-story order, and the Ultima Weapon trophy." },
+            { label: "Colosseum and endgame", href: "/guides/colosseum-endgame", description: "Bracket tiers, post-story order, and the full 40-trophy roadmap with hidden markers." },
           ],
         },
         {
@@ -77,12 +79,21 @@ export const homePage: PageContent = {
             { label: "Demo walkthrough", href: "/guides/demo-walkthrough", description: "3-5 hour demo checklist, full how-long-to-beat table, in-demo Visions, and the secret boss trigger." },
           ],
         },
+        {
+          title: "Buying, platforms and collectibles",
+          description: "What to buy, when the bonus windows close, and what to collect once you are in.",
+          items: [
+            { label: "Editions, prices and bonus deadlines", href: "/guides/editions-and-bonuses", description: "Three editions compared, both bonus packs, and the November 5 and November 6 cutoffs." },
+            { label: "PC and Steam Deck settings", href: "/guides/pc-and-steam-deck", description: "Deck Verified status, measured frame rates, the full options menu, real specs, and launch-day fixes." },
+            { label: "Tablet Shards and Oblivion Palace", href: "/guides/tablet-shards", description: "All 25 chest rewards from 3 shards to 99, plus per-region map cues." },
+          ],
+        },
       ],
     },
   ],
-  faqIds: ["what-is-this-site", "is-official", "release-date-known", "platforms-known", "guide-depth"],
+  faqIds: ["what-is-this-site", "is-official", "release-date-known", "platforms-known", "editions-choice", "pc-requirements", "guide-depth"],
   relatedPageIds: [],
   schemaTypes: ["WebSite", "CollectionPage", "FAQPage"],
   sourceStatus: "internal",
-  lastReviewed: "2026-10-19",
+  lastReviewed: "2026-10-22",
 };
